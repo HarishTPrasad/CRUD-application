@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  /* background-image: url(https://c8.alamy.com/comp/ER564D/3d-renderer-illustration-white-people-writing-registration-on-notebook-ER564D.jpg); */
+  background: rgb(176, 208, 229);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 5;
+}
+
+.form{
+  width: 100%;
+  height: 100%;
+  padding: 4vw 2vw;
+  border-radius: 0vw 7vw ;
+  background-image: linear-gradient(#0521f59c,#05c1f5a7);
+  color: white;
+  box-shadow: 0vw 0vw 7vw 1vw #05c1f5a7;
+}
+.forms{
+  width: 40%;
+  height: 70vh;
+  padding: 4vw;
+  box-shadow: 11px 11px 11px rgb(121, 121, 121);
+  background: rgb(255 255 255);
+}
+.background{
+  height: 100vh;
+}
+.display-user{
+  display: flex;
+  justify-content: space-between;
+}
+.label{
+  color: #f5f0f0;
+}
+.form-edit{
+  width: 100%;
+  height: 50%;
+  padding: 4vw 2vw;
+  border-radius: 0vw 7vw ;
+  background-image: linear-gradient(#0521f59c,#05c1f5a7);
+  color: white;
+  box-shadow: 0vw 0vw 7vw 1vw #05c1f5a7;
+}
+@media screen and (max-width:550px) {
+  .form{
+    height: 100%;
+    border-radius: 0;
+  }
+  .details{
+    width: 100%;
+
+  }
+  .hidden{
+    display: hidden;
+  }
+}
+.details{
+  width: 100%;
+  height: 100%;
+  padding: 4vw 2vw;
+  background-image: linear-gradient(#0521f59c,#05c1f5a7);
+  color: white;
+  box-shadow: 0vw 0vw 7vw 1vw #05c1f5a7;
+  margin: 4vw 0 0 0;
+  box-sizing: border-box;
+}
+
+
+
